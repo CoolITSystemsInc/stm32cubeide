@@ -1,7 +1,0 @@
-#ifndef CONFIG_STM32MP1_TRUSTED
-
-&pmic{
-	u-boot,dm-pre-reloc;
-};
-
-#endif /*CONFIG_STM32MP1_TRUSTED*/
