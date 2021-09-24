@@ -40,6 +40,12 @@ Click "Actions" at the top and the click "CI" on the left under All Workflows. T
 
 Now, naviagte to your project's README.md file which should be in the root folder of every project. Edit the readme and paste the markdown script to the top of the file, normally right under the project title.
 
+## Getting your Artifacts
+
+Click "Actions" at the top and the click "CI" on the left under All Workflows. Click on any of your recent runs; if there aren't any, see the preceeding step on how to manually run your action. This should show you the reason for the build (e.g., user pushed), the Status, Total duration, Billable time and the number of artifacts. Since these are always zipped, and if the action was successful, this should be "1".
+
+Below the main.yml should be the Artifacts section with the contents of the artifacts.
+
 ## References
 
 If this does not build, please check the main.yml file from mfs-adapter project.
