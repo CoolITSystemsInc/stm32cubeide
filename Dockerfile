@@ -6,4 +6,4 @@ RUN apt-get -y install unzip wget libncurses5-dev python3 python3-pip
 RUN pip3 install readline
 
 # Install STM32CubeIDE:
-COPY stm32cubeide /opt/stm32cubeide
+COPY stm32cubeide/ /opt/stm32cubeide/
