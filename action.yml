@@ -1,0 +1,12 @@
+# action.yml
+name: 'STM32 Builder'
+description: 'Builds a firmware project for STM32'
+inputs:
+  what-to-build:
+    description: 'Path to project'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.what-to-build }}
