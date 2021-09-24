@@ -30,6 +30,16 @@ Change the line what-to-build to be the path to the folder containing the .cproj
 
 This builder runs in Ubuntu and **DOES NOT** support running batch files. Do not use DOS-style batch files.
 
+## Manually running your Action
+
+Click "Actions" at the top and the click "CI" on the left under All Workflows. There should be a message on the right saying, "This workflow has a workflow_dispatch event trigger". Click the "Run workflow" drop down menu and then click "Run workflow".
+
+## Adding your Build Badge
+
+Click "Actions" at the top and the click "CI" on the left under All Workflows. To the right of the search box there should be a elipses button. Click to open a pop-up menu and choose "Create status badge." Here, change the Branch to master and leave the event on Default. Click "Copy status badge Markdown."
+
+Now, naviagte to your project's README.md file which should be in the root folder of every project. Edit the readme and paste the markdown script to the top of the file, normally right under the project title.
+
 ## References
 
 If this does not build, please check the main.yml file from mfs-adapter project.
